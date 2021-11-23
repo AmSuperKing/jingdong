@@ -55,7 +55,6 @@ const useRegisterEffect = (showToast) => {
       username: registerData.username,
       password: registerData.password
     }).then((res) => {
-      console.log(res)
       if (res?.errno === 0) {
         showToast('注册成功')
         setTimeout(() => {

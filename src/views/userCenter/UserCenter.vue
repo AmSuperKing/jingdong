@@ -1,23 +1,16 @@
 <template>
   <div class="wrapper">
-    <StaticPart />
-    <Nearby />
+    UserCenter
   </div>
-  <Docker />
+  <Docker :currIndex="3" />
 </template>
 
 <script>
-import StaticPart from './StaticPart'
-import Nearby from './Nearby'
 import Docker from '@/components/Docker/Docker'
 
 export default {
-  name: 'Home',
-  components: {
-    StaticPart,
-    Nearby,
-    Docker
-  }
+  name: 'OrderList',
+  components: { Docker }
 }
 </script>
 
