@@ -43,7 +43,7 @@ export default {
   background-repeat: no-repeat;
   &__header {
     position: relative;
-    padding-top: .26rem;
+    padding-top: .15rem;
     line-height: .24rem;
     font-size: .16rem;
     color: $bgColor;

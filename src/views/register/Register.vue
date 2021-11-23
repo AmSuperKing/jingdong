@@ -113,12 +113,13 @@ export default {
     height: .48rem;
     margin: 0 .4rem .16rem .4rem;
     padding: 0 .16rem;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: .01rem solid rgba(0, 0, 0, .1);
     border-radius: .06rem;
     background-color: #f9f9f9;
     &__content {
       width: 100%;
-      line-height: .48rem;
+      margin-top: .12rem;
+      line-height: .22rem;
       border: none;
       outline: none;
       background: none;
